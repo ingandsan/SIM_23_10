@@ -46,10 +46,6 @@ Route::get('base_consul3', 'CoyunturaController@datos3');
 Route::get('base_consul4', 'CoyunturaController@datos4');
 Route::get('base_consul5', 'CoyunturaController@datos5');
 Route::get('variables_sim/{variable}', 'TablasController@tablas');
-Route::get('impre/{variable}', 'TablasController@impre');
-Route::get('meta/{variable}', 'TablasController@meta');
-Route::get('concepto/{variable}', 'TablasController@concepto');
-
 
 
 

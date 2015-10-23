@@ -17,9 +17,7 @@
 		
       var options = {
           
-      width: 700,
-      height:350,
-      backgroundColor: { fill:'transparent' },
+      width: 480,
 		  tooltip: {isHtml: true},
 		  legend: {position: 'none'},
 		  vAxis: {title: 'Millones de pesos', format: "currency"},

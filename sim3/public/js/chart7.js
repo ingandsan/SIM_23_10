@@ -12,15 +12,15 @@ google.load("visualization", "1.1", {packages:["corechart"], language: 'En'});
       var data = new google.visualization.DataTable(data);
 
      var options = {
-      width: 700,
-      height:450,
-      backgroundColor: { fill:'transparent' },
+      width: 500,
+      height:300,
       vAxis: {title: 'Numero de Personas', format: "decimal"},
       hAxis:  {title: 'Mes' },
-      colors: ['#DA81F5','#0431B4','#FF3300','#FFFF00', '#00BFFF', '#E3CEF6'],    
+          colors: ['#B8860B','#FF00FF', '#909090', '#B40431','#FFFF00', '#210B61'],
+          
       tooltip: { isHtml: true },
       chartArea:{top:30},
-          pointSize: 7,
+          pointSize: 10,
 
         };
     

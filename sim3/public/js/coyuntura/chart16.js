@@ -14,19 +14,18 @@ google.load("visualization", "1.1", {packages:["corechart"], language: 'En'});
 	
 		
         var options = {
-          legend: { position: 'bottom' },
-      backgroundColor: { fill:'transparent' },
+          
+          width: 480,
 		  tooltip: { isHtml: true },
-		  pointSize: 7,
-		  chartArea:{top:30, left:40, height: 400, width:50000},
-
-		  fontSize:8,
+		  pointSize: 10,
+		  chartArea:{top:30, left:40},
+		  fontSize:9,
           vAxis: {title: 'Porcentaje', format: "decimal"},
           
 		
 		  colors: ['#00BFFF','#FF9900'],
-		   width: data.getNumberOfRows() * 70,
-		  bar: { groupWidth: "100%" }
+		   width: data.getNumberOfRows() * 80,
+		  bar: { groupWidth: "50%" }
         };
 
 		

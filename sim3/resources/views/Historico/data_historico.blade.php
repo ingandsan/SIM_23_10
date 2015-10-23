@@ -25,7 +25,14 @@
 		$col5["id"]="ÍNDICE";
 		$col5["label"]="2016";
 		$col5["type"]="number";
-		
+		$col6=array();
+		$col6["id"]="";
+		$col6["label"]="2017";
+		$col6["type"]="number";
+		$col7=array();
+		$col7["id"]="";
+		$col7["label"]="2018";
+		$col7["type"]="number";
 		$col8=array();
 		$col9=array();
 		$col8["id"]= "";
@@ -33,7 +40,7 @@
 		$col9["role"]= "tooltip";
 		$col8["type"]= "string";
 		$col8["p"]=$col9;	
-		$cols = array($col1,$col2,$col3,$col4,$col5,$col8);
+		$cols = array($col1,$col2,$col3,$col4,$col5,$col6,$col7,$col8);
 		//print_r($cols);
 		
 		$indice =428050; //
@@ -261,7 +268,12 @@
 		$col5=array();
 		$col5["label"]="2016";
 		$col5["type"]="number";
-		
+		$col6=array();
+		$col6["label"]="2017";
+		$col6["type"]="number";
+		$col7=array();
+		$col7["label"]="2018";
+		$col7["type"]="number";
 		$col8=array();
 		$col9=array();
 		$col8["id"]= "";
@@ -269,7 +281,7 @@
 		$col9["role"]= "tooltip";
 		$col8["type"]= "string";
 		$col8["p"]=$col9;	
-		$cols = array($col1,$col2,$col3,$col4,$col5,$col8);
+		$cols = array($col1,$col2,$col3,$col4,$col5,$col6,$col7,$col8);
 		//print_r($cols);
 		$leye="Unidad de Medida:\nÍndice";
 		$enter="\n";
@@ -858,7 +870,11 @@
 		$col5["label"]="2016";
 		$col5["type"]="number";
 		$col6=array();
-		
+		$col6["label"]="2017";
+		$col6["type"]="number";
+		$col7=array();
+		$col7["label"]="2018";
+		$col7["type"]="number";
 		$col8=array();
 		$col9=array();
 		$col8["id"]= "";
@@ -866,7 +882,7 @@
 		$col9["role"]= "tooltip";
 		$col8["type"]= "string";
 		$col8["p"]=$col9;
-		$cols = array($col1,$col2,$col3,$col4,$col5,$col8);
+		$cols = array($col1,$col2,$col3,$col4,$col5,$col6,$col7,$col8);
 		//print_r($cols);
 		 
 		
@@ -1329,7 +1345,12 @@
 		$col5=array();
 		$col5["label"]="2016";
 		$col5["type"]="number";
-		
+		$col6=array();
+		$col6["label"]="2017";
+		$col6["type"]="number";
+		$col7=array();
+		$col7["label"]="2018";
+		$col7["type"]="number";
 		$col8=array();
 		$col9=array();
 		$col8["id"]= "";
@@ -1337,7 +1358,7 @@
 		$col9["role"]= "tooltip";
 		$col8["type"]= "string";
 		$col8["p"]=$col9;
-		$cols = array($col1,$col2,$col3,$col4,$col5,$col8);
+		$cols = array($col1,$col2,$col3,$col4,$col5,$col6,$col7,$col8);
 		//print_r($cols);
 		 
 		
@@ -1574,7 +1595,12 @@
 		$col5=array();
 		$col5["label"]="2016";
 		$col5["type"]="number";
-		
+		$col6=array();
+		$col6["label"]="2017";
+		$col6["type"]="number";
+		$col7=array();
+		$col7["label"]="2018";
+		$col7["type"]="number";
 		$col8=array();
 		$col9=array();
 		$col8["id"]= "";
@@ -1582,7 +1608,7 @@
 		$col9["role"]= "tooltip";
 		$col8["type"]= "string";
 		$col8["p"]=$col9;
-		$cols = array($col1,$col2,$col3,$col4,$col5,$col8);
+		$cols = array($col1,$col2,$col3,$col4,$col5,$col6,$col7,$col8);
 		//print_r($cols);
 		 
 		$indice =447587; //
@@ -1815,6 +1841,12 @@
 		$col5=array();
 		$col5["label"]="2016";
 		$col5["type"]="number";
+		$col6=array();
+		$col6["label"]="2017";
+		$col6["type"]="number";
+		$col7=array();
+		$col7["label"]="2018";
+		$col7["type"]="number";
 		$col8=array();
 		$col9=array();
 		$col8["id"]= "";
@@ -1822,7 +1854,7 @@
 		$col9["role"]= "tooltip";
 		$col8["type"]= "string";
 		$col8["p"]=$col9;
-		$cols = array($col1,$col2,$col3,$col4,$col5,$col8);
+		$cols = array($col1,$col2,$col3,$col4,$col5,$col6,$col7,$col8);
 		//print_r($cols);
 		 
 		$indice =216192; //

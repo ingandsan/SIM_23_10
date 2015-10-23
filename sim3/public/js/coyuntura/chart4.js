@@ -16,9 +16,7 @@ google.load("visualization", "1.1", {packages:["bar"], language: 'en'});
 		
         var options = {
           
-        width: 600,
-        height: 500,
-        backgroundColor: { fill:'transparent' },
+          width: 480,
 		   legend: {position: 'none'},
 		   chartArea:{top:30},
 		  vAxis: {title: 'Índice', format: "decimal"},

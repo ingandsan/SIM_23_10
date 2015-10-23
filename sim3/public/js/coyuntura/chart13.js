@@ -15,13 +15,13 @@
 	
 		
         var options = {
-          legend: { position: 'bottom' },
-          backgroundColor: { fill:'transparent' },
+          
+          width: 480,
           vAxis: {title: 'Porcentaje', format: "decimal"},
           tooltip: { isHtml: true },
 		  colors: ['#FF9900','#000099'],
-		  pointSize: 7,
-		  chartArea:{top:30, left:40, height: 400, width:50000},
+		  pointSize: 10,
+		  chartArea:{top:30, left:40},
 		  fontSize:10,
 		  width: data.getNumberOfRows() * 50,
 		  bar: { groupWidth: "50%" }

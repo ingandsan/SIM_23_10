@@ -16,9 +16,7 @@
 		
         var options = {
           
-        width: 600,
-        height: 500,
-        backgroundColor: { fill:'transparent' },
+          width: 480,
 		   legend: {position: 'none'},
 		  vAxis: {title: 'Índice', format: "decimal"},
           

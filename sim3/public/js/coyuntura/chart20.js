@@ -15,18 +15,16 @@
     
         var options = {
           
-      legend: { position: 'bottom' },
-          width: 600,
-        height: 500,
+      
+          width: 480,
           vAxis: {title: 'Millones de Dolares', format: "currency"},
-        series: {1: {type: 'line'},0: {type: 'bars'}},
-      backgroundColor: { fill:'transparent' },
+      series: {1: {type: 'line'},0: {type: 'bars'}},
       
       
-      pointSize: 7,
+      pointSize: 10,
       tooltip: { isHtml: true },
       chartArea:{top:30},
-          hAxis: {title: 'Año'},
+      hAxis: {title: 'Año'},
           colors: ['#000099','#C0C0C0']
         };
 

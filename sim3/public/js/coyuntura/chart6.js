@@ -16,16 +16,14 @@ google.load("visualization", "1.1", {packages:["bar"] , language: 'en'});
 		
         var options = {
           
-        width: 600,
-        height: 500,
-        backgroundColor: { fill:'transparent' },
-       legend: {position: 'none'},
-       chartArea:{top:30},
-      vAxis: {title: 'Índice', format: "decimal"},
+          width: 480,
+		   legend: {position: 'none'},
+		  vAxis: {title: 'Índice', format: "decimal"},
           
-      width: data.getNumberOfRows() * 50,
-      bar: { groupWidth: "50%" },
-      colors: ['#000099']
+		  width: data.getNumberOfRows() * 50,
+		  chartArea:{top:30},
+		  colors: ['#000099'],
+		  bar: { groupWidth: "50%" }
         };
 		
 	

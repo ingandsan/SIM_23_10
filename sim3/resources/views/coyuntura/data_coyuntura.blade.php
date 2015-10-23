@@ -514,7 +514,7 @@
 			$col1["type"]="string";
 			//print_r($col1);
 			$col2=array();
-			$col2["label"]="Estado de Puebla \n Número de Personas";
+			$col2["label"]="Ciudad de Puebla \n Número de Personas";
 			$col2["type"]="number";
 			//print_r($col2);
 			$cols = array($col1,$col2);
